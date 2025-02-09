@@ -9,38 +9,35 @@
         <mxCell id="JNXkOQ7XTJxNFgtDe8OC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JNXkOQ7XTJxNFgtDe8OC-1" target="JNXkOQ7XTJxNFgtDe8OC-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JNXkOQ7XTJxNFgtDe8OC-1" target="JNXkOQ7XTJxNFgtDe8OC-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JNXkOQ7XTJxNFgtDe8OC-1" target="JNXkOQ7XTJxNFgtDe8OC-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="JNXkOQ7XTJxNFgtDe8OC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JNXkOQ7XTJxNFgtDe8OC-1" target="JNXkOQ7XTJxNFgtDe8OC-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-1" value="Arduino" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="pZQB2Gb_S0MmkvTdiOnm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JNXkOQ7XTJxNFgtDe8OC-1" target="JNXkOQ7XTJxNFgtDe8OC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-1" value="Microcontroller&lt;div&gt;Arduino&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-2" value="Servo Motor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="70" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-3" value="Display" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-3" value="LCD Display" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-5" value="Speaker" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-5" value="Buzzer / LED" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-6" value="Physical Lock" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="190" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-6" value="Lock Mechanism&lt;div&gt;(Solenoid / Servo)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="JNXkOQ7XTJxNFgtDe8OC-8" target="JNXkOQ7XTJxNFgtDe8OC-1" edge="1">
+        <mxCell id="pZQB2Gb_S0MmkvTdiOnm-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JNXkOQ7XTJxNFgtDe8OC-8" target="JNXkOQ7XTJxNFgtDe8OC-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-8" value="User Input:&lt;br&gt;Keypad / Fingerprint" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-8" value="User Input:&lt;br&gt;Keypad / Fingerprint" style="rounded=1;whiteSpace=wrap;html=1;shape=label;fixedSize=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="450" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JNXkOQ7XTJxNFgtDe8OC-8" target="JNXkOQ7XTJxNFgtDe8OC-8" edge="1">
+        <mxCell id="pZQB2Gb_S0MmkvTdiOnm-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pZQB2Gb_S0MmkvTdiOnm-5" target="JNXkOQ7XTJxNFgtDe8OC-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZQB2Gb_S0MmkvTdiOnm-5" value="Main Power&lt;div&gt;(Adapter or Li-ion battery)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shape=label;fixedSize=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

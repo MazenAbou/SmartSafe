@@ -1,6 +1,6 @@
 The Smart Safe system can be implemented using different architectures based on the level of security, complexity, and scalability required. 
 
-Option 1: Microcontroller-Based (Arduino)
+Option 1: Microcontroller-Based (Arduino).
 Pros:
 Simple and cost-effective.
 Low power consumption.
@@ -16,7 +16,7 @@ Microcontroller
   -  LCD Display for feedback.
   -  EEPROM/Flash Memory to store credentials.
 
-Option 2: Raspberry Pi-Based
+Option 2: Raspberry Pi-Based.
 Pros:
 - More processing power and storage.
 - Allows for network-based control (Wi-Fi, Bluetooth, Cloud integration).
@@ -28,15 +28,15 @@ Architecture:
 - Touchscreen UI (Optional) instead of a keypad.
 - Cloud-based authentication (Optional).
 
-Option 3: Standalone ATmega328P (Without Arduino Board)
-Pros:
+Option 3: Standalone ATmega328P (Without Arduino Board).
+  Pros:
 - Smaller and cheaper than a full Arduino board.
 - More customizable and power-efficient for production use.
 - Works well for battery-powered applications.
-Cons:
+  Cons:
 - Requires external components (crystal oscillator, capacitors, voltage regulator).
 - Harder to debug compared to an Arduino board.
-Architecture:
+  Architecture:
 - ATmega328P microcontroller (flashed with Arduino bootloader).
 - External 16MHz crystal oscillator with capacitors.
 - Manual wiring for inputs (keypad, fingerprint sensor, lock mechanism).

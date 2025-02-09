@@ -20,7 +20,7 @@
           <mxGeometry x="365" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JNXkOQ7XTJxNFgtDe8OC-2" value="Servo Motor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="365" y="20" width="120" height="60" as="geometry" />
+          <mxGeometry x="365" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JNXkOQ7XTJxNFgtDe8OC-3" value="Display" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="310" width="120" height="60" as="geometry" />
@@ -34,7 +34,7 @@
         <mxCell id="JNXkOQ7XTJxNFgtDe8OC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="JNXkOQ7XTJxNFgtDe8OC-8" target="JNXkOQ7XTJxNFgtDe8OC-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-8" value="User Input" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="JNXkOQ7XTJxNFgtDe8OC-8" value="User Input:&lt;br&gt;Keypad / Fingerprint" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JNXkOQ7XTJxNFgtDe8OC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JNXkOQ7XTJxNFgtDe8OC-8" target="JNXkOQ7XTJxNFgtDe8OC-8" edge="1">

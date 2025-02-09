@@ -1,0 +1,8 @@
+1. Microcontroller (Arduino) → Handles input processing, authentication logic, and unlocking mechanism.
+2. Input Components: Keypad (4x4 matrix) → Allows users to enter a passcode for unlocking.
+  Fingerprint Sensor (R307, GT-511C3) → Provides biometric authentication.
+3. Output Components: Locking Mechanism (Solenoid Lock/Servo Motor/Relay-controlled lock) → Engages or disengages the safe’s lock.
+  LCD Display → Displays status messages, authentication results, and errors.
+  Buzzer/LED Indicator → Provides sound or visual feedback on successful/failed attempts.
+4. Power System: Main Power Supply (Adapter or Li-ion battery) → Provides energy to the system.
+  Battery Backup (optional) → Ensures the safe operates during power failure.

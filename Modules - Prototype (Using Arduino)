@@ -1,0 +1,17 @@
+1. Microcontroller Arduino Uno for handling input/output and processing authentication logic.
+2. Input Modules: 
+-  4x4 Matrix Keypad – Used for passcode input.
+-  Fingerprint Sensor (R307 or AS608) for biometric authentication.
+3. Output & Feedback Modules
+-  LCD Display (I2C Module Recommended) – Displays status messages.
+-  Buzzer Module – Provides feedback for successful/failed authentication.
+-  LED Indicator – red for incorrect attempt, green for success).
+4. Lock Mechanism
+- Servo Motor: Can be used for prototyping a simple lock mechanism.
+5. Power Supply Module
+- 5V/12V Power Supply Adapter.
+
+Prototype Wiring Overview
+Keypad & Fingerprint Sensor: Arduino Inputs
+Servo Motor: Arduino Output.
+LCD Display & Buzzer: Feedback System

@@ -1,0 +1,66 @@
+Smart Safe Logbook
+
+ Project Name: Smart Safe
+ Team Members: Mazen, Awal, Nirmal
+ Course/Institution: ECET 430
+ Instructor: Christian Hansis
+ Start Date: 02/06/2025
+ Expected Completion Date: 05/01/2025
+
+Project Overview
+Objective: Develop a smart safe with enhanced security features using electronic components and software integration.
+ Scope: The smart safe should include password authentication, RFID card reader.
+ Main Components: Arduino, RFID, Keypad, Servo Motor.
+
+Log Entries
+Week 1: Ideation & Planning
+Date: 02/11/2025
+ Tasks Completed:
+Chosen Idea: Smart door lock.
+Brainstormed features and functionalities.
+Assigned roles to each team member.
+Created a rough design sketch.
+
+
+
+Week 2: Component Acquisition & Initial Prototyping
+Date: 02/18/2025
+ Tasks Completed:
+Chosen a different idea (Smart Safe) due to some difficulties on the hardware side, like the doorknob mechanism.
+Researched necessary components.
+Purchased electronic components.
+Assembled the Arduino and tested basic input/output functionality.
+Started wiring and programming the keypad
+
+
+
+Week 3: Hardware & Software Integration
+Date: 02/25/2025
+ Tasks Completed:
+Integrated LCD display, LEDs, Buzzer, and a servomotor for locking mechanism.
+Developed initial code.
+Created an enclosure prototype using Inkscape and laser cut machine.
+ Challenges & Solutions:
+No enough pins in Arduino Uno for LCD display and 4x4 keypad → used Shift Register (SN74HC595) which reduced the number of pins used by the LCD display from 6 pins to 3 pins.
+ Next Steps: Use I2C adapter (PCF8574) for the final project.
+
+Week 4: Testing & Debugging
+Date: 03/04/2025
+ Tasks Completed:
+Conducted unit tests on entering the code using the keypad.
+Debugged issues related to LCD display after using the shift register.
+Improved the LCD display to turn the backlight off after 5 seconds if it is not in use.
+Improved security features (allowing the user to change the passcode).
+ Challenges & Solutions:
+Coding the LCD display → Downloaded and used library (LiquidCrystal_74HC595.h).
+ Next Steps: Adding RFID for the final project.
+
+Week 5: Presentation Preparation
+Date: 03/11/2025
+ Tasks Completed:
+Conducted final functional tests.
+Created presentation slides and report.
+
+
+
+

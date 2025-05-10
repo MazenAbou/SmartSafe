@@ -21,8 +21,6 @@ Brainstormed features and functionalities.
 Assigned roles to each team member.
 Created a rough design sketch.
 
-
-
 Week 2: Component Acquisition & Initial Prototyping
 Date: 02/18/2025
  Tasks Completed:
@@ -32,17 +30,15 @@ Purchased electronic components.
 Assembled the Arduino and tested basic input/output functionality.
 Started wiring and programming the keypad
 
-
-
 Week 3: Hardware & Software Integration
 Date: 02/25/2025
  Tasks Completed:
-Integrated LCD display, LEDs, Buzzer, and a servomotor for locking mechanism.
+Integrated LCD display, LEDs, a Buzzer, and a servomotor for the locking mechanism.
 Developed initial code.
-Created an enclosure prototype using Inkscape and laser cut machine.
+Created an enclosure prototype using Inkscape and a laser-cut machine.
  Challenges & Solutions:
 No enough pins in Arduino Uno for LCD display and 4x4 keypad → used Shift Register (SN74HC595) which reduced the number of pins used by the LCD display from 6 pins to 3 pins.
- Next Steps: Use I2C adapter (PCF8574) for the final project.
+ Next Steps: Use the I2C adapter (PCF8574) for the final project.
 
 Week 4: Testing & Debugging
 Date: 03/04/2025
@@ -61,6 +57,29 @@ Date: 03/11/2025
 Conducted final functional tests.
 Created presentation slides and report.
 
+Week 6: 
+Date: 03/25/2025
+Replacing the Shift Register with I2C. Testing the LCD with I2C, it works well after adjusting the potentiometer on the I2C.
+Testing the RFID and the distance, it can read the card from around ¾ inch without a barrier. Same distance with 3mm inch wood.
+Created a 3D model for the final look of the project.
+Tried different codes.
+ 
+Week 7:
+Date: 04/01/2025
+Tested and fixed the keypad. The keypad we ordered has arrived defective; some of the keys are not functioning. Mazen opened the keypad cover and fixed it by wiring it externally.
+Coding RFID, making sure it works with the keypad. At first, there was conflict between them; when the keypad works, the RFID doesn’t, and vice versa. 
+Then we were able to fix the code so both can work at the same time.
+ 
+Week 8:
+Date: 04/15/2025
+Started preparing the design for laser cutting using Inkscape software. We decided to make the safe at a larger size so it can be versatile and not only for small objects.
+ 
+Week 9:
+Date: 04/22/2025
+Tested battery charger module (LiPo Rider Plus). Used a 3.7V Battery, the module boost it to 5V.
+Recharge it via USB-C. Tried to connect to the Arduino Uno, using USB-A, and it worked well. However, connecting it by barrel jack, it did not work. “Arduino Barrel Jack requires at least 7V to power it up.”
 
-
+Week 10:
+Date: 04/29/2025
+Final tests and code adjustments.
 
